@@ -1,0 +1,65 @@
+# ==========================
+# Quartus / FPGA .gitignore
+# ==========================
+
+# Quartus output directories
+db/
+incremental_db/
+output_files/
+simulation/
+timing/
+
+# Quartus temporary files
+*.bak
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.pin
+*.jdi
+*.jic
+*.pof
+*.sof
+*.svf
+*.cdf
+*.map
+*.fit
+*.sta
+*.asm
+*.done
+*.chg
+
+# Generated netlists / intermediate files
+*.vo
+*.vho
+*.sdo
+*.sopcinfo
+
+# IP generated files
+*.ipregen
+*.qip
+*.cmp
+*.spd
+*.ppf
+
+# ModelSim / Questa simulation files
+work/
+modelsim.ini
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+
+# Temporary / log files
+*.log
+*.tmp
+
+# Windows / OS files
+Thumbs.db
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
